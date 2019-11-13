@@ -31,6 +31,6 @@ public class account {
 
     @Id
     private Integer id;
-    private String username;
-    private String password;
+    private String  username;
+    private String  password;
 }

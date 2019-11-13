@@ -55,9 +55,9 @@ public class userAccount {
 
     @Id
     private Integer id;
-    private String username;
-    private String email;
-    private  String password;
+    private String  username;
+    private String  email;
+    private String  password;
     private Integer state;
-    private String code;
+    private String  code;
 }

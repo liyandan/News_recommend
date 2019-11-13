@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.spark:spark-streaming-flume_2.11:2.3.4">
+    <CLASSES>
+      <root url="jar://D:/NLP_data_code_all/maven/maven_cq/repository/org/apache/spark/spark-streaming-flume_2.11/2.3.4/spark-streaming-flume_2.11-2.3.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/NLP_data_code_all/maven/maven_cq/repository/org/apache/spark/spark-streaming-flume_2.11/2.3.4/spark-streaming-flume_2.11-2.3.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/NLP_data_code_all/maven/maven_cq/repository/org/apache/spark/spark-streaming-flume_2.11/2.3.4/spark-streaming-flume_2.11-2.3.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

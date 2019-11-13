@@ -25,7 +25,7 @@ public class ajaxNews {
         this.url = url;
     }
 
-    private String url;
-    private String title;
-    private  String content;
+    private     String url;
+    private     String title;
+    private     String content;
 }

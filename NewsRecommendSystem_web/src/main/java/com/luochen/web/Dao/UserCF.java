@@ -5,7 +5,7 @@ import javax.persistence.Id;
 
 @Entity
 public class UserCF {
-    public Long getUserId() {
+    public Long   getUserId() {
         return userId;
     }
 
@@ -22,6 +22,6 @@ public class UserCF {
     }
 
     @Id
-    private Long userId;
+    private Long   userId;
     private String recommendStr;
 }

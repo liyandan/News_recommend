@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/News_recommend.iml" filepath="$PROJECT_DIR$/.idea/News_recommend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewsRecommendSystem_web/demo.iml" filepath="$PROJECT_DIR$/NewsRecommendSystem_web/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark_news/spark_news.iml" filepath="$PROJECT_DIR$/spark_news/spark_news.iml" />
+    </modules>
+  </component>
+</project>

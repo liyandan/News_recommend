@@ -6,7 +6,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.3.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
     <groupId>com.luochen</groupId>
     <artifactId>demo</artifactId>
@@ -14,13 +14,10 @@
     <packaging>jar</packaging>
     <name>demo</name>
     <description>Demo project for Spring Boot</description>
-
     <properties>
         <java.version>1.8</java.version>
     </properties>
-
     <dependencies>
-
         <dependency>
             <groupId>javax.mail</groupId>
             <artifactId>mail</artifactId>
@@ -94,8 +91,8 @@
             <artifactId>jfinal</artifactId>
             <version>3.0</version>
         </dependency>
-
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -107,5 +104,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

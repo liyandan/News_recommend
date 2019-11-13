@@ -1,5 +1,4 @@
 package com.luochen.web.controllers;
-
 import com.luochen.web.Dao.*;
 import com.luochen.web.Dao.interf.*;
 import com.luochen.web.register.utils.CodeUtils;
@@ -9,11 +8,8 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-import javax.swing.text.html.Option;
-import java.math.BigInteger;
 import java.util.*;
 
 import static com.luochen.tools.RandomNums.getCurrentTimeStr;
@@ -45,13 +41,10 @@ public class PagesController {
         ajaxNews news=new ajaxNews();
         news.setTitle(temp.getArticleTitle());
         news.setContent(temp.getArticleContent());
-       // System.out.println(session.getAttribute("usrId")+","+id+","+"1"+","+getCurrentTimeStr());
+        // System.out.println(session.getAttribute("usrId")+","+id+","+"1"+","+getCurrentTimeStr());
         LOG.fatal(session.getAttribute("usrId")+","+id+","+"1"+","+getCurrentTimeStr());
         return news;
     }
-
-
-
 
     @RequestMapping("/pages")
     public String readMore(@RequestParam("id")String id, Model model)
@@ -124,8 +117,6 @@ public class PagesController {
            return ajaxNewsList;
         }
     }
-
-
 
     @RequestMapping("Login")
     public String Login()
@@ -214,7 +205,7 @@ public class PagesController {
                     session.setAttribute("msg1", temp.getUsername());
                     session.setAttribute("usrId", temp.getId());
                     session.setAttribute("channel","recommend");
-                //    System.out.println(temp.getId());
+
                     return "redirect:/index.html";
                 } else {
                     session.setAttribute("msg", "密码错误，请重新输入！");

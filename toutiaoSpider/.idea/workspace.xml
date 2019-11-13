@@ -1,7 +1,522 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42205a61-f177-4d56-803d-bb3707a5d427" name="Default Changelist" comment="" />
+    <list default="true" id="42205a61-f177-4d56-803d-bb3707a5d427" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/News_recommend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewsRecommendSystem_web/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/META-INF/demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/tools/RandomNums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/Dao/ItemSim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/Dao/UserCF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/Dao/account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/Dao/ajaxNews.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/Dao/interf/ItemSimRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/Dao/interf/UserAccountRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/Dao/interf/UserCFRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/Dao/user.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/Dao/userAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/DemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/conf/MyMvcConf$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/conf/MyMvcConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/controllers/PagesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/register/tools/registerKits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/register/utils/CodeUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/register/utils/MailUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/com/luochen/web/register/utils/MailUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/Phase Shift_files/init.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/Phase Shift_files/jquery.dropotron.min.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/Phase Shift_files/jquery.min.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/Phase Shift_files/pic01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/Phase Shift_files/pic02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/Phase Shift_files/pic03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/Phase Shift_files/skel-layers.min.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/Phase Shift_files/skel.min.js.下载" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/Phase Shift_files/style-wide.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/Phase Shift_files/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/css/ie/backgroundsize.min.htc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/css/ie/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/css/ie/v8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/css/skel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/css/style-mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/css/style-narrow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/css/style-narrower.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/css/style-normal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/css/style-wide.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/images/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/images/clipboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/images/head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/images/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/images/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/images/pic01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/images/pic02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/images/pic03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/images/pic04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/images/sign-in.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/js/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/js/jquery.dropotron.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/js/skel-layers.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/js/skel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/css/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/css/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/ajaxSubmit-integration-demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/bootstrap/index-bs4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/bootstrap/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/captcha/captcha.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/captcha/fonts/Anorexia.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/captcha/image_req.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/captcha/images/button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/captcha/images/image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/captcha/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/captcha/newsession.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/captcha/process.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/captcha/rand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/captcha/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/cinema/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/cinema/plan_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/cinema/refer_madness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/cinema/saucer_men.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/css/cmxform.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/css/cmxformTemplate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/css/core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/css/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/custom-messages-data-demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/custom-methods-demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/dynamic-totals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/errorcontainer-demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/errors-within-labels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/file_input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/images/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/images/checked.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/images/cmxform-divider.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/images/cmxform-fieldset.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/images/unchecked.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/jquerymobile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/login/images/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/login/images/header1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/login/images/page.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/login/images/required_star.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/login/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/login/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/backRequiredGray.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/back_green-fade.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/back_nav_blue.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/button-submit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/left-nav-callout-long.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/login-sprite.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/logo_marketo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/sf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/step1-24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/step2-24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/step3-24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/tab-sprite.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/tab_green.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/toggle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/images/warning.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/jquery.maskedinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/mktSignup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/step2.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/marketo/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/milk/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/milk/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/milk/left_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/milk/milk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/milk/milk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/milk/right_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/multipart/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/multipart/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/radio-checkbox-select-demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/requirejs/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/requirejs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/semantic-ui/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/site-demos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/themerollered.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/tinymce/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/tinymce/themes/simple/editor_template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/tinymce/themes/simple/img/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/tinymce/themes/simple/langs/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/tinymce/themes/simple/skins/default/ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/tinymce/tiny_mce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/demo/tinymce4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_az.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_bg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_bn_BD.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_bn_BD.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ca.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_cs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_da.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_de.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_el.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_es.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_es_AR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_es_AR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_es_PE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_es_PE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_et.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_eu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_fa.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_fi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_fr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ge.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_gl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_he.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_hr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_hu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_hy_AM.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_hy_AM.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_id.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_is.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_it.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ja.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ka.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_kk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_kk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ko.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_lt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_lv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_mk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_my.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_nl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_no.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_pl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_pt_BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_pt_BR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_pt_PT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_pt_PT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ro.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ru.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_sd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_sd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_si.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_sk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_sl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_sr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_sr_lat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_sr_lat.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_sv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_th.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_tj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_tj.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_tr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_uk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ur.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_ur.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_vi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_zh.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_zh_TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/messages_zh_TW.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/methods_de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/methods_de.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/methods_es_CL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/methods_es_CL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/methods_fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/methods_fi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/methods_it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/methods_it.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/methods_nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/methods_nl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/methods_pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/dist/localization/methods_pt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/lib/jquery-1.11.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/lib/jquery-1.7.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/lib/jquery-1.8.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/lib/jquery-1.9.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/lib/jquery-3.1.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/lib/jquery.form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/lib/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/lib/jquery.mockjax-1.5.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/lib/jquery.mockjax-2.2.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/lib/jquery.mockjax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/lib/jquery.simulate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/lib/require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/abaRoutingNumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/accept.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/additional.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/alphanumeric.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/bankaccountNL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/bankorgiroaccountNL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/bic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/cifES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/cnhBR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/cnpjBR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/cpfBR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/creditcard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/creditcardtypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/currency.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/dateFA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/dateITA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/dateNL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/extension.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/giroaccountNL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/greaterThan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/greaterThanEqual.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/iban.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/integer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/ipv4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/ipv6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/lessThan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/lessThanEqual.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/lettersonly.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/letterswithbasicpunc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/maxfiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/maxsize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/maxsizetotal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/mobileNL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/mobileRU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/mobileUK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/netmask.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/nieES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/nifES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/nipPL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/nisBR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/notEqualTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/nowhitespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/pattern.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/phoneNL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/phonePL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/phoneUK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/phoneUS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/phonesUK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/postalCodeCA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/postalcodeBR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/postalcodeIT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/postalcodeNL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/postcodeUK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/require_from_group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/skip_or_fill_minimum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/statesUS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/strippedminlength.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/time12h.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/url2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/vinUS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/zipcodeUS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/additional/ziprange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_bn_BD.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_es_AR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_es_PE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_ge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_hy_AM.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_kk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_pt_BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_pt_PT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_sd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_sr_lat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_tj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_ur.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/messages_zh_TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/methods_de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/methods_es_CL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/methods_fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/methods_it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/methods_nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/src/localization/methods_pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/test/additional/abaRoutingNumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/test/additional/cnhBR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/test/additional/creditcard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/test/additional/netmask.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/test/aria.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/test/error-placement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/test/messages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/test/methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/test/rules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jq va/test/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jquery-3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/js/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/login.check.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/register.check.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/register1.check.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/style1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/static/login/style2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/templates/pages/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/templates/pages/css/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/templates/pages/css/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/templates/pages/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/templates/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/templates/pages/left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/templates/pages/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/templates/pages/readMore.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/templates/pages/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/templates/pages/register1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/classes/templates/pages/right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/demo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsRecommendSystem_web/target/test-classes/com/luochen/web/demo/DemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_news/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/spark_news.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_news/spark_news.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/caseclass/UserRating$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/caseclass/UserRating.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/caseclass/newsLog$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/caseclass/newsLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/ItemSimilarity$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/ItemSimilarity$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/ItemSimilarity$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/ItemSimilarity$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/ItemSimilarity$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/ItemSimilarity$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/ItemSimilarity$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/ItemSimilarity$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/ItemSimilarity$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/ItemSimilarity$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/ItemSimilarity$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/ItemSimilarity$$anonfun$transposeRowMatrix$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/ItemSimilarity$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/ItemSimilarity$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/ItemSimilarity$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/ItemSimilarity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/UserCF$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/UserCF$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/UserCF$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/UserCF$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/recommend/UserCF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/streaming/KafkaConsumer$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/streaming/KafkaConsumer$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/streaming/KafkaConsumer$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/streaming/KafkaConsumer$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/streaming/KafkaConsumer$$anonfun$main$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/streaming/KafkaConsumer$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/streaming/KafkaConsumer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/streaming/KafkaConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/tools/RecommendKits$$anonfun$splitWordToSeq$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/tools/RecommendKits$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/tools/RecommendKits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/utils/DBLocalUtils$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_news/target/classes/com/luochan/utils/DBLocalUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/toutiao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/toutiao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,11 +529,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/toutiao/spiders/toutiao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="36" column="113" selection-start-line="36" selection-start-column="113" selection-end-line="36" selection-end-column="113" />
+            <state relative-caret-position="418">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
               <folding>
                 <element signature="e#24#50#0" expanded="true" />
               </folding>
@@ -27,73 +542,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda/Lib/site-packages/scrapy_splash/middleware.py">
+        <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="166" selection-start-line="166" selection-end-line="166" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/core/engine.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="136" selection-start-line="136" selection-end-line="136" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/utils/reactor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda/Lib/site-packages/twisted/internet/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="908" selection-start-line="908" selection-end-line="908" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/core/scraper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda/Lib/site-packages/scrapy_splash/request.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/utils/trackref.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/chrome/options.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="90" selection-start-line="90" selection-end-line="92" selection-end-column="25" />
+            <state relative-caret-position="306">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -101,8 +553,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/begin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="22">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toutiao/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toutiao/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toutiao/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toutiao/settings.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/toutiao/signature.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -115,6 +604,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -131,6 +623,7 @@
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -151,19 +644,13 @@
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="toutiao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="toutiaoSpider" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\codes\Java_proj\News_recommend\toutiaoSpider" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="toutiao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="toutiaoSpider" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\codes\Java_proj\News_recommend\toutiaoSpider" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="toutiao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="toutiao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="toutiao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="spiders" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -172,8 +659,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/begin.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -222,6 +710,9 @@
       <module name="toutiao" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/toutiao/spiders" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -269,18 +760,22 @@
       <workItem from="1551149905251" duration="172000" />
       <workItem from="1551160984511" duration="10604000" />
       <workItem from="1551181125749" duration="4351000" />
+      <workItem from="1573545910982" duration="1904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32967000" />
+    <option name="totallyTimeSpent" value="34871000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1453" height="873" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2855228" />
+      <window_info id="aws.explorer" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20302376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Pylint" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.37199435" />
@@ -294,6 +789,11 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50402147" side_tool="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49597856" weight="0.32956153" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956153" />
+      <window_info anchor="right" id="aiXcoder" />
+      <window_info anchor="right" id="Json Parser" />
+      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="right" id="R Packages" />
+      <window_info anchor="right" id="Key Promoter X" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -322,15 +822,79 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../test2/venv/Lib/site-packages/scrapy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-434" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../test2/venv/Lib/site-packages/scrapy/__init__.py" />
     <entry file="file://$PROJECT_DIR$/toutiao/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/__init__.py">
+    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/__init__.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/chrome/service.py" />
+    <entry file="file://D:/Anaconda/Lib/subprocess.py" />
+    <entry file="file://D:/Anaconda/Lib/codecs.py" />
+    <entry file="file://D:/Anaconda/Lib/encodings/__init__.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/common/service.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/chrome/webdriver.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/chrome/remote_connection.py" />
+    <entry file="file://D:/Anaconda/Lib/urllib/parse.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/remote/remote_connection.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/common/utils.py" />
+    <entry file="file://D:/Anaconda/Lib/encodings/idna.py" />
+    <entry file="file://D:/Anaconda/Lib/importlib/__init__.py" />
+    <entry file="file://D:/Anaconda/Lib/platform.py" />
+    <entry file="file://D:/Anaconda/Lib/socket.py" />
+    <entry file="file://D:/Anaconda/Lib/enum.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/__init__.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/utils/defer.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/utils/misc.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/spiderloader.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/crawler.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/cmdline.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/utils/trackref.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy_splash/request.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy_splash/middleware.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/core/engine.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/utils/reactor.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/twisted/internet/base.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/chrome/options.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/core/scraper.py" />
+    <entry file="file://$PROJECT_DIR$/toutiao/spiders/toutiao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="e#24#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/begin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toutiao/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toutiao/middlewares.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/toutiao/pipelines.py">
@@ -340,242 +904,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao/signature.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/toutiao/settings.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+    <entry file="file://$PROJECT_DIR$/toutiao/signature.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/chrome/service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="708" selection-start-line="708" selection-end-line="708" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/encodings/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="152" selection-start-line="152" selection-end-line="152" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/common/service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/chrome/remote_connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/urllib/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="160" selection-start-line="160" selection-end-line="160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/remote/remote_connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/common/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/encodings/idna.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/importlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2356">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/platform.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19589">
-          <caret line="1034" selection-start-line="1034" selection-end-line="1034" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/socket.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1862">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/enum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5453">
-          <caret line="290" selection-start-line="290" selection-end-line="290" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/utils/defer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1148">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/utils/misc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/spiderloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="248" selection-start-line="248" selection-end-line="248" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/cmdline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="148" selection-start-line="148" selection-end-line="148" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/begin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/utils/trackref.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy_splash/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy_splash/middleware.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/core/engine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/utils/reactor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/twisted/internet/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="908" selection-start-line="908" selection-end-line="908" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/chrome/options.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="90" selection-start-line="90" selection-end-line="92" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/scrapy/core/scraper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao/spiders/toutiao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="36" column="113" selection-start-line="36" selection-start-column="113" selection-end-line="36" selection-end-column="113" />
-          <folding>
-            <element signature="e#24#50#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="242">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>

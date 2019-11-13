@@ -7,11 +7,11 @@ import javax.persistence.Id;
 public class user {
 
     @Id
-    private Long id;
+    private Long   id;
     private String pref_list;
     private String date;
     private String password;
-    public String getPassword() {
+    public String  getPassword() {
         return password;
     }
 

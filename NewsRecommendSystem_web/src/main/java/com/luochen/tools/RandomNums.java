@@ -1,5 +1,5 @@
-package com.luochen.tools;
 
+package com.luochen.tools;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -35,7 +35,8 @@ public class RandomNums {
 
     public static Date getCurrenttime()
     {
-        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
+        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        //设置日期格式
         String date = df.format(new Date());
         try {
             Date getNewsTime=df.parse(date);
@@ -47,8 +48,8 @@ public class RandomNums {
     }
     public static String getCurrentTimeStr()
     {
-        // getInRecTimestamp(1);
-        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
+        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        //设置日期格式
         return df.format(getCurrenttime());
     }
 

@@ -3,7 +3,6 @@ package com.luochen.web.Dao.interf;
 import com.luochen.web.Dao.userAccount;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
-
 import java.util.List;
 
 public interface UserAccountRepository extends CrudRepository<userAccount,Integer> {

@@ -1,6 +1,5 @@
 package com.luochen.web.Dao;
 
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 @Entity
@@ -62,7 +61,7 @@ public class ItemSim {
     }
 
     @Id
-    private Long newsId;
+    private Long   newsId;
     private String source_url;
     private String tag;
     private String articleContent;

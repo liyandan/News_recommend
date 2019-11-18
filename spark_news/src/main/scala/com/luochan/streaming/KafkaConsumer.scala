@@ -1,5 +1,4 @@
 package com.luochan.streaming
-
 import java.sql.Connection
 
 import com.luochan.caseclass.newsLog
@@ -8,13 +7,10 @@ import kafka.serializer.StringDecoder
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.streaming.kafka.KafkaUtils
-
-
 /*
 用户的浏览记录：
 log4j->flume->kafka->spark streaming->mysql
 */
-
 object KafkaConsumer {
 
   def main(args:Array[String]):Unit={
